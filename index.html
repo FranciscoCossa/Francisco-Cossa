@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Desenvolvedor Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a class="logo" href="#inicio"><span>Francisco Joao Cossa</span></a>
+
+        <nav>
+            <a href="#inicio" data-i="n1">Início</a>
+            <a href="#sobre" data-i="n2">Sobre Mim</a>
+            <a href="#projectos" data-i="n3">Projectos</a>
+            <a href="#contacto" data-i="n4">Contactos</a>
+        </nav>
+
+        <div class="direita">
+            <div class="idioma">
+                <button data-lang="pt" class="ativo">PT</button>
+                <button data-lang="en">EN</button>
+            </div>
+            <a class="botao pequeno" href="cv.pdf" download data-i="cv">Descarregar CV</a>
+        </div>
+    </header>
+>
+    <section class="seletor" id="idioma">
+        <span data-i="il">Escolha o idioma:</span>
+        <button data-lang="pt" class="ativo">Português</button>
+        <button data-lang="en">English</button>
+    </section>
+
+    <section class="inicio" id="inicio">
+        <div class="texto">
+            <h3>&lt; H3 &gt; <b data-i="hw">Olá, Mundo</b> &lt; /H3 &gt;</h3>
+            <h1>
+                <span class="leve">&lt; H1 &gt; <span data-i="h0">Eu sou</span></span>
+                <strong>Francisco Joao Cossa</strong>
+                <span class="leve">&lt; /H1 &gt;</span>
+            </h1>
+            <p data-i="h1">Desenvolvedor Web que transforma ideias em páginas rápidas, bonitas e fáceis de usar.</p>
+            <div class="botoes">
+                <a class="botao preto" href="#projectos" data-i="b1">Portfólio</a>
+                <a class="botao preto" href="#contacto" data-i="b2">Contactos</a>
+            </div>
+        </div>
+
+        <img src="IMG-20261012-WA0143.jpg" alt="Foto do Francisco">
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section id="sobre">
+        <h2 data-i="a0">Sobre <span>Mim</span></h2>
+        <p data-i="a1">Sou estudante e desenvolvedor web com paixão por criar interfaces limpas e funcionais. Gosto de entender o problema de quem vai usar o site antes de escrever a primeira linha de código.</p>
+        <p data-i="a2">Fora do ecrã, interesso-me por tecnologia, design, música e por ajudar colegas a aprender programação.</p>
+        <div class="dados">
+            <h3 data-i="dp0">Dados Pessoais</h3>
+            <div class="lista">
+                <div class="dado"><b data-i="dp1">Idade: </b><span data-i="dv1">19 anos</span></div>
+                <div class="dado"><b data-i="dp2">Sexo: </b><span data-i="dv2">Masculino</span></div>
+                <div class="dado"><b data-i="dp3">Naturalidade: </b><span>Gaza</span></div>
+                <div class="dado"><b data-i="dp4">Data de Nascimento: </b><span>29/03/2007</span></div>
+                <div class="dado"><b data-i="dp5">Estado Civil: </b><span data-i="dv5">Solteiro</span></div>
+                <div class="dado"><b data-i="dp6">Residência: </b><span>Maputo, Moçambique</span></div>
+            </div>
+        </div>
+        <div class="grelha">
+            <div class="cartao">
+                <h3>HTML</h3>
+                <p data-i="s1">Estruturo páginas com tags semânticas e organizadas.</p>
+            </div>
+            <div class="cartao">
+                <h3>CSS</h3>
+                <p data-i="s2">Estilizo com Flexbox, Grid, transições e design responsivo.</p>
+            </div>
+            <div class="cartao">
+                <h3>JavaScript</h3>
+                <p data-i="s3">Acrescento interacção, como a troca de idioma desta página.</p>
+            </div>
+        </div>
+
+        <div class="barras">
+            <div class="caixa">
+                <h3 data-i="l1">Linguagens de Programação</h3>
+
+                <div class="linha"><span>HTML</span><span>90%</span></div>
+                <div class="fundo"><div class="nivel" style="--p:90%"></div></div>
+
+                <div class="linha"><span>CSS</span><span>85%</span></div>
+                <div class="fundo"><div class="nivel" style="--p:85%"></div></div>
+
+                <div class="linha"><span>Python</span><span>80%</span></div>
+                <div class="fundo"><div class="nivel" style="--p:65%"></div></div>
+            </div>
+
+            <div class="caixa">
+                <h3 data-i="l2">Línguas que Falo</h3>
+
+                <div class="linha"><span data-i="lg1">Português</span><span>100%</span></div>
+                <div class="fundo"><div class="nivel" style="--p:100%"></div></div>
+
+                <div class="linha"><span data-i="lg2">Inglês</span><span>70%</span></div>
+                <div class="fundo"><div class="nivel" style="--p:70%"></div></div>
+
+                <div class="linha"><span data-i="lg3">Changana</span><span>80%</span></div>
+                <div class="fundo"><div class="nivel" style="--p:40%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projectos">
+        <h2 data-i="p0">Portfólio de <span>Projectos</span></h2>
+
+        <div class="grelha">
+
+            <article class="projeto">
+                <div class="imagem">
+                    <svg viewBox="0 0 400 260" role="img" aria-label="Projecto Loja Online">
+                        <defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12A5A0"/><stop offset="1" stop-color="#0E1E3A"/></linearGradient></defs>
+                        <rect width="400" height="260" fill="url(#g1)"/>
+                        <circle cx="360" cy="30" r="90" fill="#F4B400" opacity=".18"/>
+                        <rect x="40" y="36" width="320" height="196" rx="12" fill="#F5F8FB"/>
+                        <rect x="40" y="36" width="320" height="26" rx="12" fill="#DCE6F5"/>
+                        <circle cx="58" cy="49" r="4" fill="#E5604D"/><circle cx="72" cy="49" r="4" fill="#F4B400"/><circle cx="86" cy="49" r="4" fill="#3DBE7A"/>
+                        <rect x="58" y="76" width="82" height="86" rx="8" fill="#12A5A0"/><rect x="159" y="76" width="82" height="86" rx="8" fill="#F4B400"/><rect x="260" y="76" width="82" height="86" rx="8" fill="#1F4A86"/>
+                        <g fill="#0E1E3A"><rect x="58" y="172" width="60" height="7" rx="3"/><rect x="159" y="172" width="60" height="7" rx="3"/><rect x="260" y="172" width="60" height="7" rx="3"/></g>
+                        <rect x="260" y="205" width="82" height="18" rx="9" fill="#0E1E3A"/>
+                    </svg>
+                </div>
+                <h3 data-i="t1">Loja Online</h3>
+                <p data-i="d1">Catálogo de produtos com grelha responsiva, feito com HTML, CSS e JavaScript.</p>
+                <a class="botao pequeno" href="#" data-i="v">Ver projecto</a>
+            </article>
+
+            <article class="projeto">
+                <div class="imagem">
+                    <svg viewBox="0 0 400 260" role="img" aria-label="Projecto Lista de Tarefas">
+                        <defs><linearGradient id="g2" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4B400"/><stop offset="1" stop-color="#E5604D"/></linearGradient></defs>
+                        <rect width="400" height="260" fill="url(#g2)"/>
+                        <circle cx="40" cy="230" r="100" fill="#0E1E3A" opacity=".15"/>
+                        <rect x="110" y="24" width="180" height="214" rx="22" fill="#0E1E3A"/>
+                        <rect x="118" y="38" width="164" height="186" rx="14" fill="#F5F8FB"/>
+                        <rect x="132" y="54" width="90" height="10" rx="5" fill="#0E1E3A"/>
+                        <rect x="132" y="82" width="136" height="34" rx="9" fill="#E1EEF3"/><rect x="132" y="126" width="136" height="34" rx="9" fill="#E1EEF3"/><rect x="132" y="170" width="136" height="34" rx="9" fill="#E1EEF3"/>
+                        <circle cx="150" cy="99" r="9" fill="#12A5A0"/><circle cx="150" cy="143" r="9" fill="#12A5A0"/>
+                        <circle cx="150" cy="187" r="9" fill="none" stroke="#12A5A0" stroke-width="3"/>
+                        <path d="M145 99l4 4 7-8M145 143l4 4 7-8" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h3 data-i="t2">Lista de Tarefas</h3>
+                <p data-i="d2">Aplicação para organizar o dia a dia, optimizada para telemóvel.</p>
+                <a class="botao pequeno" href="#" data-i="v">Ver projecto</a>
+            </article>
+
+            <article class="projeto">
+                <div class="imagem">
+                    <svg viewBox="0 0 400 260" role="img" aria-label="Projecto Painel de Notas">
+                        <defs><linearGradient id="g3" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#1F4A86"/><stop offset="1" stop-color="#12A5A0"/></linearGradient></defs>
+                        <rect width="400" height="260" fill="url(#g3)"/>
+                        <circle cx="350" cy="230" r="110" fill="#F4B400" opacity=".16"/>
+                        <rect x="34" y="30" width="332" height="200" rx="14" fill="#F5F8FB"/>
+                        <rect x="34" y="30" width="72" height="200" rx="14" fill="#0E1E3A"/>
+                        <rect x="48" y="52" width="44" height="8" rx="4" fill="#F4B400"/><rect x="48" y="76" width="44" height="8" rx="4" fill="#4A669B"/><rect x="48" y="100" width="44" height="8" rx="4" fill="#4A669B"/>
+                        <rect x="124" y="52" width="70" height="46" rx="8" fill="#E1EEF3"/><rect x="204" y="52" width="70" height="46" rx="8" fill="#E1EEF3"/><rect x="284" y="52" width="66" height="46" rx="8" fill="#E1EEF3"/>
+                        <g fill="#12A5A0"><rect x="124" y="190" width="22" height="24" rx="4"/><rect x="156" y="170" width="22" height="44" rx="4"/><rect x="188" y="150" width="22" height="64" rx="4"/><rect x="220" y="176" width="22" height="38" rx="4"/><rect x="252" y="130" width="22" height="84" rx="4"/></g>
+                        <rect x="284" y="124" width="66" height="90" rx="8" fill="#F4B400"/>
+                    </svg>
+                </div>
+                <h3 data-i="t3">Painel de Notas</h3>
+                <p data-i="d3">Painel com gráficos e cartões, organizado com CSS Grid.</p>
+                <a class="botao pequeno" href="#" data-i="v">Ver projecto</a>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2 data-i="c0"><span>Contactos</span></h2>
+        <p><b>Email:</b> <a href="mailto:Cossafranciscojoao849@gmail.com">Cossafranciscojoao849@gmail.com</a></p>
+        <p><b data-i="c1">Telefone:</b> <a href="tel:+258879486085">+258 87 948 6085</a></p>
+        <p><b>GitHub:</b> <a href="https://github.com/FranciscoCossa" target="_blank"> https://github.com/FranciscoCossa/Francisco-Jo-o-Cossa.git</a></p>
+    </section>
+
+    <footer>
+        <p data-i="f"</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
